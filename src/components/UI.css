@@ -7,28 +7,26 @@
 }
 
 .result {
-  background-color: #f2f2f2;
+  background-color: #c4c4c4;
   border: 1px solid #ccc;
-  border-radius: 3px;
   padding: 5px;
   margin-bottom: 10px;
   text-align: right;
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
+  grid-gap: 1px;
 }
 
 button {
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   background-color: #e6e6e6;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
 
