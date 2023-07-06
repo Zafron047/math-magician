@@ -32,7 +32,7 @@ function UI() {
           %
         </button>
         <button type="button" onClick={HandleClick} className="operator">
-          /
+          ÷
         </button>
         <button type="button" onClick={HandleClick}>7</button>
         <button type="button" onClick={HandleClick}>8</button>
