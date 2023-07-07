@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const SomeFunction = () => {
+const RandomQuotes = () => {
   const url = 'https://api.api-ninjas.com/v1/quotes?category=business';
   const key = 'bvuPSGiToRh49Pmg7okBJQ==vaRCLzbhx7mll6yh';
 
@@ -20,7 +20,6 @@ const SomeFunction = () => {
       });
 
       const getQuote = await response.json();
-      console.log(getQuote);
       setQuote(getQuote[0]);
     } catch (error) {
       setError(true);
@@ -42,4 +41,4 @@ const SomeFunction = () => {
   );
 };
 
-export default SomeFunction;
+export default RandomQuotes;

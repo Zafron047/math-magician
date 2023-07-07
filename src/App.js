@@ -1,12 +1,12 @@
 import './App.css';
 import Calculator from './components/Calculator';
-import SomeFunction from './components/GetApi';
+import RandomQuotes from './components/GetApi';
 
 function App() {
   return (
     <div className="App">
       <Calculator />
-      <SomeFunction />
+      <RandomQuotes />
     </div>
   );
 }
