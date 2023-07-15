@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import '../styles/RandomQuotes.css';
 
 const RandomQuotes = () => {
   const url = 'https://api.api-ninjas.com/v1/quotes?category=business';
@@ -34,9 +35,9 @@ const RandomQuotes = () => {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <div>
+    <div className="quotes">
       <p>{quote.quote}</p>
-      <p>{`- ${quote.author}`}</p>
+      <p>{quote.author}</p>
     </div>
   );
 };

@@ -1,9 +1,10 @@
 .calculator {
   width: 280px;
-  margin: 0 auto;
+  margin: 0;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
+  margin-right: 120px;
 }
 
 .result {

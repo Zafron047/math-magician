@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 30px 20px 80px;
+}
+
+.nav h1 {
+  color: #6a5acd;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.navul {
+  display: flex;
+  padding-top: 0.6rem;
+  gap: 0.5rem;
+}
+
+.navul li {
+  list-style: none;
+  font-size: larger;
+  padding: 0 1rem;
+}
+
+.liBorder {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.navul a {
+  text-decoration: none;
+}
+
+.active {
+  color: #ee9b00;
+}
