@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [💻 Live Demo](#Live Demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -35,6 +36,10 @@
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
 </details>
+
+### Live Demo
+
+<a name="Live Demo" href="[https://microverse-math-magicians.onrender.com]">Click to see Live Demo</a>
 
 ### Key Features <a name="key-features"></a>
 

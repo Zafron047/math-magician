@@ -10,8 +10,6 @@
   color: #6a5acd;
   font-size: 3rem;
   margin: 0;
-
-  /* text-shadow: 2px 2px #bb3e03; */
 }
 
 .navul {
@@ -22,18 +20,11 @@
 
 .navul li {
   list-style: none;
-
-  /* padding-left: 1.5rem; */
   font-size: larger;
-
-  /* font-family: cursive; */
-
-  /* font-weight: bold; */
   padding: 0 1rem;
 }
 
 .liBorder {
-  /* border: 3px solid black; */
   border-left: 1px solid black;
   border-right: 1px solid black;
 }

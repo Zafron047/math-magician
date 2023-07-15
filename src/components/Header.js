@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import classes from '../styles/Nav.module.css';
 import '../styles/Header.css';
 
 const Header = () => (
