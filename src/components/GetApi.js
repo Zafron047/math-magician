@@ -37,7 +37,7 @@ const RandomQuotes = () => {
   return (
     <div className="quotes">
       <p>{quote.quote}</p>
-      <p>{`- ${quote.author}`}</p>
+      <p>{quote.author}</p>
     </div>
   );
 };

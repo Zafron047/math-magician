@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
-import './UI.css';
+import '../styles/UI.css';
 
 function UI() {
   const [result, SetResult] = useState(

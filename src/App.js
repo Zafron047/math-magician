@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
